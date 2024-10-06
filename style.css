@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 56px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    padding-left: 10px;
+}
+.center{
+    width: 100%;
+}
+.button{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 5px;
+}
+.button img{
+    width: 24px;
+}
+.button:hover{
+    background-color: #E5E5E5;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.in{
+    font-size: 10px;
+    margin: 3px;
+    margin-bottom: 22px;
+}
+.logo img{
+    width: 90px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.searchbox{
+    height: 37px;
+    border: 1.7px solid lightgray;
+    border-radius: 40px;
+    width: 60%;
+    margin-left: 70px;
+}
+.search{
+    width: 100%;
+    padding-left: 16px;
+    color: gray;
+}
+.searchicon{
+    width: 12%;
+    height: 37px;
+    padding: 1px 6px 1px 6px;
+    border-left: 1.7px solid lightgray;
+    border-radius: 0px 40px 40px 0px;
+    background-color: rgb(241, 241, 241);
+    box-sizing: border-box; 
+}
+.searchicon img{
+    width: 24px;
+}
+.mic{
+    background-color: rgb(241, 241, 241);
+    border-radius: 40px;
+    margin: 20px;
+}
+.mic:hover{
+    background-color: #D9D9D9;
+}
+.account{
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+    background-color: #AA47BC;
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 30px;
+}
